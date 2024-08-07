@@ -10,56 +10,55 @@
 <body>
 <!-- =====================================encabezado======================================  -->
 
-    <header class="container-fluid bg-primary d-flex justify-content-center ">
-        <!-- <p class="text-light mb-0 p-2 fs-6">LLAMANOS AHORA +34 915 202020</p> -->
-    </header>
-    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary p-4" id="menu">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
-                </li>
-                <li class="nav-item dropdown">
+<header class="header" id="header">
+  <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary p-4" id="menu">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                OFERTAS
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ofertas por tiempo limitado</a></li>
+                <li><a class="dropdown-item" href="#">Descuentos exclusivos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Mejores ofertas del mes</a></li>
+            </ul>
+            </li>
+            <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    OFERTAS
+                    DESTINOS
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Ofertas por tiempo limitado</a></li>
-                    <li><a class="dropdown-item" href="#">Descuentos exclusivos</a></li>
+                    <li><a class="dropdown-item" href="#">América</a></li>
+                    <li><a class="dropdown-item" href="#">Asia y Oceanía</a></li>
+                    <li><a class="dropdown-item" href="#">Europa</a></li>
+                    <li><a class="dropdown-item" href="#">África</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Mejores ofertas del mes</a></li>
+                    <li><a class="dropdown-item" href="#">Mejores destinos</a></li>
                 </ul>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        DESTINOS
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">América</a></li>
-                        <li><a class="dropdown-item" href="#">Asia y Oceanía</a></li>
-                        <li><a class="dropdown-item" href="#">Europa</a></li>
-                        <li><a class="dropdown-item" href="#">África</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Mejores destinos</a></li>
-                    </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/acercade.html">ACERCA DE</a>
-                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/acercade.html">ACERCA DE</a>
                 </li>
-            </ul>
-            <form class="d-flex " role="search" id="form">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <!-- <button class="btn btn-primary btn-primary-outlne" type="button">Suscribete</button> -->
-            </form>
-            </div>
+            </li>
+        </ul>
+        <form class="d-flex " role="search" id="form">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <!-- <button class="btn btn-primary btn-primary-outlne" type="button">Suscribete</button> -->
+        </form>
         </div>
-    </nav>
+    </div>
+  </nav>
+</header>
 
 
 <!-- =====================================slider de imagenes=====================================  -->
@@ -90,29 +89,32 @@
 
 
 
-<!-- <section class="container-fluid d-flex ">
-  <div class="row">
-    <div class="col-lg-3 col-md-6 sm-12">
-      <h4>Viaja a tu medida</h4>
-      <p>Te ayudamos a crear
-        el viaje de tu vida </p>
-        <button>mas informacion</button>
-    </div>
+<section class="container-fluid d-flex p-3 gap-4">
+
+  <div class="container1 text-center">
     <div class="row">
-    <div class="col-lg-3 col-md-6 sm-12">
-      <h4>Viaja a tu medida</h4>
-      <p>Te ayudamos a crear
-        el viaje de tu vida </p>
-        <button>mas informacion</button>
-    </div>
-    <div class="row">
-      <div class="col-lg-3 col-md-6 sm-12">
+      <div class="col-lg col-md">
         <h4>Viaja a tu medida</h4>
         <p>Te ayudamos a crear
           el viaje de tu vida </p>
-          <button>mas informacion</button>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
-</section> -->
+      <div class="col-lg col-md">
+        <h4>Viaja a tu medida</h4>
+        <p>Te ayudamos a crear
+          el viaje de tu vida </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      <div class="col-lg col-md">
+        <h4>Viaja a tu medida</h4>
+        <p>Te ayudamos a crear
+          el viaje de tu vida </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+</div>
+
+</section> 
 
 
 
@@ -121,7 +123,7 @@
 
 
 
-<section class="pt-5">
+<section class="pt-3">
   <h3 class="text-center my-5">LOS MEJORES VIAJES</h3>
   <div class="container">
     <div class="row">
