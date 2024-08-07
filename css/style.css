@@ -1,0 +1,61 @@
+/* ======================globales============================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    overflow-x: hidden;
+    height: 5000px;
+    padding-top: 100px;
+}
+
+/* ======================menu============================ */
+
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(34, 33, 33);
+}
+
+#menu{
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+/* ======================slider de imagenes============================ */
+
+
+.carousel-inner{
+max-height: 39rem;
+}
+
+
+
+
+
+/* ======================acerca de nosotros============================ */
+
+
+
+.nuestro-compromiso{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding:20px;
+gap: 20px;
+border-top: solid rgb(47, 46, 46) 2px;
+}
+
+
+
+
+/* ======================cards============================ */
+
