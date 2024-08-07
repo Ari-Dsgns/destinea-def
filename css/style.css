@@ -21,7 +21,8 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     background-color: #101820;
     color: whitesmoke;
-    padding: 60px;
+    /* padding: 60px; */
+    padding-top: 40px;
 }
 
 .caja1{
@@ -68,12 +69,12 @@ body{
 
     .caja1 img{
 
-        width: 100px;
+        width: 2fr;
         height: 40px;
     }
 
     .caja2 {
-        width:150px ;
+        width:2fr ;
         height: 100px;
     }
     .caja2 p{
@@ -81,11 +82,11 @@ body{
     }
 
     .caja3 img{
-        width: 100px ;
+        width: 2fr ;
         height: 50px;
     }
     .caja4 img{
-        width: 600px;
+        width: 6fr;
         height: 40px;
     }
 
@@ -94,16 +95,25 @@ body{
 
 @media( max-width: 576px){
 
-    .caja2 {
-        width:100px ;
-        height: 100px;
-    }
-    .caja2 p{
-        font-size: 12px;
+    .caja1{
+        width:2fr ;
+        height: 50px;
     }
 
+    .caja2 {
+        width:2fr ;
+        height: 50px;
+    }
+    .caja2 p{
+        font-size: 10px;
+    }
+
+    .caja3{
+        width:2fr ;
+        height: 50px;
+    }
     .caja4 img{
-        width: 300px;
+        width: 6fr;
         height: 25px;
     }
 }
