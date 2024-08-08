@@ -67,13 +67,7 @@
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="3000">
-      <img src="../assets/img/ofertas.jpg" class="d-block w-100" alt="slide1">
-    </div>
-    <div class="carousel-item" data-bs-interval="3000">
-      <img src="../assets/img/slide2.jpg" class="d-block w-100" alt="slide2">
-    </div>
-    <div class="carousel-item" data-bs-interval="3000">
-      <img src="../assets/img/slide3.jpg" class="d-block w-100" alt="slide3">
+      <img src="../assets/img/cabin.jpg" class="d-block w-100" alt="slide1">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -91,26 +85,71 @@
 <!-- =====================================formularios=====================================-->
 
 
-<section class="sec1-contacto">
-  <div>
+<section class="sec1-contacto w-75 mx-auto pt-3 pb-3">
+  <div class="container-fluid d-flex justify-content-center p-5">
     <h2>Formulario de contacto</h2>
   </div>
   <div>
-    <div class="row gap-4 m-4">
-      <div class="col">
-        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    <div class="row gap-2 m-1">
+      <div class="col-">
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
       </div>
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+      <div class="col-md">
+        <input type="text" class="form-control" placeholder="E-mail" aria-label="Last name">
       </div>
     </div>
-    <div class="row gap-4 m-4">
-      <div class="col">
-        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    <div class="row gap-2 m-1">
+      <div class="col-md">
+        <input type="text" class="form-control" placeholder="Ciudad" aria-label="First name">
       </div>
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+      <div class="col-md">
+        <input type="text" class="form-control" placeholder="País" aria-label="Last name">
       </div>
+    </div>
+  </div>
+  <div class="container-fluid d-flex justify-content-center p-5">
+    <h3>Comienza a diseñar tu viaje</h3>
+  </div>
+  <div class=" w-75 mx-auto pt-0 pb-5 text-center">
+    <p>Uno de nuestros diseñadores de viaje se pondrá en contacto contigo para confeccionar, a medida y en privado, ese gran viaje que tienes en mente.  Completa el formulario con todos los detalles que puedas darnos, para asegurarnos de
+      brindarte una experiencia verdaderamente única y personalizada.</p>
+  </div>
+  <div>
+    <div class="row gap-2 m-2">
+      <div class="col-md">
+        <p>¿A qué destino te gustaría viajar?</p>
+        <input type="text" class="form-control" placeholder="" aria-label="First name">
+      </div>
+      <div class="col-md">
+        <p>¿Cuándo quieres viajar? Si tienes fechas indícanoslas</p>
+        <input type="text" class="form-control" placeholder="" aria-label="Last name">
+      </div>
+    </div>
+    <div class="row gap-2 m-1 pb-4">
+      <div class="col-md">
+        <p>¿Cuántas noches dura el viaje?</p>
+        <input type="text" class="form-control" placeholder="" aria-label="First name">
+      </div>
+      <div class="col-md">
+        <p>¿Cuántas personas?</p>
+        <input type="text" class="form-control" placeholder="" aria-label="Last name">
+      </div>
+    </div>
+    <div class="row gap-2 m-1 pb-5">
+      <div class="col-md">
+        <p>¿Cuál es el presupuesto aproximado por persona?</p>
+        <input type="text" class="form-control" placeholder="" aria-label="First name">
+      </div>
+      <div class="form-floating ">
+        <p>Cuentanos más</p>
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea"></label>
+      </div>
+  </div>
+
+  <div class="container-fluid d-flex justify-content-center pt-2">
+    <div class="d-grid gap-2 col-3 mx-auto">
+      <a href="./pages/destinos.html" class="btn btn-primary">Enviar</a>
     </div>
   </div>
 </section>
