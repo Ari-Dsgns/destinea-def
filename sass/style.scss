@@ -1,0 +1,20 @@
+@import "./utilities/variables";
+@import "./utilities/mapas";
+@import "./utilities/mixins";
+
+@import"./base/reset";
+@import"./base/fuentes";
+
+
+@import"./layout/header";
+@import"./layout/main";
+@import"./layout/footer";
+
+@import"./components/card";
+
+
+@import "./layout/mediaQ";
+
+
+
+

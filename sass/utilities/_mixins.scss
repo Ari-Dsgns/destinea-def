@@ -1,0 +1,35 @@
+// es un bloque de codigo que puede trabajarse de manera estatica o dinamica//
+
+// +++ forma estatica ++++
+
+// @mixin flex{
+
+// display: flex;
+// flex direction: row;
+// flex wrap:nowrap;
+// justify-content:center;
+// align-items: center;
+// gap: 1.25rem;
+//
+// }
+
+
+// en la seccion donde tengas flex, quitamos las propiedades y lo reemplazamos por @include flex;
+
+// +++ forma dinamica++++
+
+// @mixin flex( $direction, $wrap, $justify, $align, $gap ){
+
+    // display: flex;
+    // flex direction: $direction;
+    // flex wrap: $wrap;
+    // justify-content:$justify;
+    // align-items: $align;
+    // gap: $gap;
+    //
+    // }
+
+    // en la seccion donde tengas flex (header,sections,footer,etc), dejamos display flex y quitamos las propiedades del mismo
+    //  y lo reemplazamos por @include flex( ej: row,wrap,center,none,20px)
+
+    // ++ARGUMENTO Y PARAMETRO+++

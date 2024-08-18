@@ -1,0 +1,63 @@
+/* ====================== media Q ============================ */
+@media (max-width: 996px){
+
+  #container-drops{
+    columns: 4;
+  }
+}
+@media (max-width: 768px) {
+    #intro {
+      width: 90% !important; }
+
+      #forms{
+          width: 90% !important;
+      }
+    .caja1 img {
+      width: 2fr;
+      height: 40px; }
+    .caja2 {
+      width: 2fr;
+      height: 100px; }
+    .caja2 p {
+      font-size: 16px; }
+    .caja3 img {
+      width: 2fr;
+      height: 50px; }
+    .caja4 img {
+      width: 6fr;
+      height: 40px; } }
+
+  
+  @media (max-width: 576px) {
+    .caja1 {
+      width: 2fr;
+      height: 50px; }
+    .caja2 {
+      width: 2fr;
+      height: 50px; }
+    .caja2 p {
+      font-size: 10px; }
+    .caja3 {
+      width: 2fr;
+      height: 50px; }
+    .caja4 img {
+      width: 4fr;
+      height: 25px; } }
+
+
+      @media (max-width: 380px) {
+        .caja1 {
+          width: 2fr;
+          height: 30px; }
+        .caja2 {
+          width: 2fr;
+          height: 30px; }
+        .caja2 p {
+          font-size: 8px; }
+        .caja3 {
+          width: 2fr;
+          height: 30px; }
+        .caja4 img {
+          width: 4fr;
+          height: 25px;
+          width: 200px; } }

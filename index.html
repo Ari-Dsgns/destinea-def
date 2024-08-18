@@ -15,7 +15,7 @@
 <header class="header" id="header">
   <nav class="navbar navbar-expand-xl fixed-top bg-body-tertiary p-4" id="menu">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt=""></a>
+        <a class="navbar-brand" id="logo" href="#"><img src="./assets/img/logo.png" alt="Destinea-your travel destination"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -55,7 +55,7 @@
         </ul>
         <form class="d-flex " role="search" id="form">
             <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-            <button class="btn btn-primary btn-primary-outlne" type="button">Buscar</button>
+            <button class="btn btn-dark btn-primary-outlne" type="button">Buscar</button>
         </form>
         </div>
     </div>
@@ -68,13 +68,13 @@
 <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="3000">
-        <img src="./assets/img/australia-carousel.jpg" class="d-block w-100" alt="slide1">
+        <img src="./assets/img/kioto.jpg"class="d-block w-100" alt="slide1">
       </div>
       <div class="carousel-item" data-bs-interval="3000">
-        <img src="./assets/img/indo.jpg" class="d-block w-100" alt="slide2">
+        <img src="./assets/img/gran-muralla.jpg" class="d-block w-100" alt="slide2">
       </div>
       <div class="carousel-item" data-bs-interval="3000">
-        <img src="./assets/img/himeji.jpg" class="d-block w-100" alt="slide3">
+        <img src="./assets/img/noruega.jpg" class="d-block w-100" alt="slide3">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -87,31 +87,32 @@
     </button>
   </div>
 
-<!-- =====================================cards-config=====================================-->
+<!-- ===================================== mini cards-config=====================================-->
 
 
 
-<section class="container-fluid d-flex justify-content-center pt-5 pb-5 bg-body-tertiary">
+<section class="container-fluid d-flex justify-content-center pt-1 pb-5 bg-body-tertiary">
 
-  <div class="container text-center gap-4 m-4">
-    <div class="row gap-4 m-4">
-      <div class="col-lg col-md p-4">
+  <div class="container text-center gap-4 m-4 pb-2">
+    <h1 class="pb-4 fs-1 fw-bold " id="titulo">DESTINEA</h1>
+    <div class="row gap-4 m-4 pt-5">
+      <div class="col-md p-4" id="minicards">
         <h4>Viaja a tu medida</h4>
         <p>Te ayudamos a configurar
           el viaje de tu vida</p>
-          <a href="#" class="btn btn-primary">Configurar</a>
+          <a href="#" class="btn btn-success">Configurar</a>
       </div>
-      <div class="col-lg col-md p-4">
+      <div class="col-md p-4" id="minicards">
         <h4>Solo para intrépidos</h4>
         <p>Te ayudamos a configurar
           el viaje de tu vida</p>
-          <a href="#" class="btn btn-primary">Configurar</a>
+          <a href="#" class="btn btn-success">Configurar</a>
       </div>
-      <div class="col-lg col-md p-4">
+      <div class="col-md p-4" id="minicards">
         <h4>Los más populares</h4>
         <p>Te ayudamos a configurar
           el viaje de tu vida</p>
-          <a href="#" class="btn btn-primary">Configurar</a>
+          <a href="#" class="btn btn-success">Configurar</a>
       </div>
     </div>
 </div>
@@ -126,44 +127,44 @@
 
 
 <section class="p-4 bg-body-secundary">
-  <h3 class="p-5 fs-2 text-center">Donde tu imaginación te lleve, vamos contigo. </h3>
+  <h3 class="p-5 fs-2 text-center w-90 mx-auto">Donde tu imaginación te lleve, vamos contigo. </h3>
   <div class="container">
-    <div class="row gap-4">
-      <div class="col-lg ">
-        <div class="card">
-          <img src="./assets/img/KENIA.jpg" class="card-img-top" alt="...">
+    <div class="row gap-2">
+      <div class="col-md ">
+        <div class="card border-0" id="cards">
+          <img src="./assets/img/KENIA.jpg" class="card-img-top" id="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">KENIA</h5>
             <p class="card-text">Rodéate de sus animales salvajes en la reserva Masái Mara, la sabana no deja a nadie indiferente.</p>
-            <a href="#" class="btn btn-primary">Saber más</a>
+            <a href="#" class="btn btn-success">Saber más</a>
           </div>
         </div>
       </div>
-      <div class="col-lg ">
-        <div class="card">
+      <div class="col-md ">
+        <div class="card border-0" id="cards">
           <img src="./assets/img/connor-home-dtmz4CDRXqw-unsplash (1).jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">AUSTRALIA</h5>
             <p class="card-text">Disfruta de su riqueza natural y sus
               sensacionales playas, descubre la Gran Barrera de Coral.</p>
-            <a href="#" class="btn btn-primary">Saber más</a>
+            <a href="#" class="btn btn-success">Saber más</a>
           </div>
         </div>
       </div>
-      <div class="col-lg ">
-        <div class="card">
+      <div class="col-md">
+        <div class="card border-0" id="cards">
           <img src="./assets/img/indonesia.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">INDONESIA</h5>
-            <p class="card-text">Navega entre sus islas volcánicas, descubre la fauna y flora más salvaje del continente.</p>
-            <a href="#" class="btn btn-primary">Saber más</a>
+            <p class="card-text">Navega entre sus islas volcánicas, descubre la fauna y la flora más salvaje del continente asiático</p>
+            <a href="#" class="btn btn-success">Saber más</a>
           </div>
         </div>
       </div>
     </div>
   </div>
   <div class="container-fluid d-flex justify-content-center p-5">
-    <a href="./pages/destinos.html" class="btn btn-primary">Ver todos</a>
+    <a href="./pages/destinos.html" class="btn btn-success btn-lg col-4">Ver todos</a>
 </section>
 
 <!-- ============================ seccion4-himalaya ============================== -->
@@ -181,8 +182,10 @@
 
 <!-- =================================== footer ======================================= -->
 
-<footer class="footer">
-  <section class="grid-container-footer">
+
+
+<footer class="footer2">
+  <section class="grid-container-footer2">
     <div class="caja1">  
     <img src="./assets/img/logo2-tab.png" alt="">
     </div>
@@ -197,8 +200,17 @@
     <div class="caja3">
       <img src="./assets/img/Frame 10123095.png" alt="">
     </div>
-    <div class="caja4">
-      <img src="./assets/img/cookies.png" alt="">
+    <div class="caja4 ">
+      <a href="">Política de cookies</a>
+    </div>
+    <div class="caja5 ">
+      <a href="">Condiciones generales</a>
+    </div>
+    <div class="caja6 ">
+      <a href="">Asistencia en viaje</a>
+    </div>
+    <div class="caja7 " >
+      <a href="">Politica de privacidad</a>
     </div>
   </section>
 </footer>
