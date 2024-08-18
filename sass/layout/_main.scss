@@ -6,6 +6,7 @@
         
 }
 
+
 .carousel-inner img{
     -webkit-animation: kenburns-bottom 10s ease-out both;
             animation: kenburns-bottom 10s ease-out both;
@@ -169,6 +170,12 @@
     background-image:url(../style.scss/) ;
 }
 
+
+.acerca{
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
 
 //== propiedad extend para copiar las propiedades de otras clases:
 
