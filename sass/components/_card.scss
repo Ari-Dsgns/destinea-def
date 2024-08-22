@@ -13,6 +13,14 @@
 
 #cards{
     opacity: 85%;
+    a{
+        background-color: map-get($colores , color3 );
+        border:  map-get($colores , color3 );
+          &:hover{
+              background-color: map-get($colores , color2 );
+              
+          }
+      }
     
     }
 
@@ -31,9 +39,25 @@
 #minicards{
     border-radius: 8px;
     background-color: #7a797911;
+    a{
+        background-color: map-get($colores , color3 );
+        border:  map-get($colores , color3 );
+          &:hover{
+              background-color: map-get($colores , color2 );
+              
+          }
+      }
 }
 #minicards:hover{
     // border: solid 2px #3e3e3ed6;
    border-radius: 8px;
    background-color: #7a797933;
+}
+
+#vertodos-btn{
+    
+        background-color: map-get($colores , color3 );
+        border:  map-get($colores , color3 );
+          &:hover{
+              background-color: map-get($colores , color2 );}
 }
