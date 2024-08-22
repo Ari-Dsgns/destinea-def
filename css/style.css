@@ -223,6 +223,12 @@ body {
   #vertodos-btn:hover {
     background-color: #a738d3; }
 
+#form-btn {
+  background-color: #6b0096;
+  border: #6b0096; }
+  #form-btn:hover {
+    background-color: #a738d3; }
+
 /* ====================== media Q 768============================ */
 @media (max-width: 768px) {
   #intro {
