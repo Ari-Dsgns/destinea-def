@@ -162,6 +162,17 @@
     }
 }
 
+.sec-egipto{
+  @extend .sec4;
+  background-image: url("../assets/img/giza.jpg");
+
+    .divegipto{
+
+      @extend .divHimalaya;
+
+    }
+}
+
 
 
 

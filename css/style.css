@@ -102,7 +102,7 @@ body {
     filter: blur(0px);
     opacity: 1; } }
 
-.sec4, .sec-nagano {
+.sec4, .sec-nagano, .sec-egipto {
   display: flex;
   background-repeat: no-repeat;
   padding: 40px 40px;
@@ -112,12 +112,12 @@ body {
   background-image: url("../assets/img/himalaya.jpg");
   background-size: cover;
   background-position: center; }
-  .sec4 a, .sec-nagano a {
+  .sec4 a, .sec-nagano a, .sec-egipto a {
     background-color: #6b0096;
     border: #6b0096; }
-    .sec4 a:hover, .sec-nagano a:hover {
+    .sec4 a:hover, .sec-nagano a:hover, .sec-egipto a:hover {
       background-color: #a738d3; }
-  .sec4 .divHimalaya, .sec-nagano .divHimalaya, .sec-nagano .divNagano {
+  .sec4 .divHimalaya, .sec-nagano .divHimalaya, .sec-egipto .divHimalaya, .sec-nagano .divNagano, .sec-egipto .divegipto {
     display: flex;
     height: 300px;
     flex-direction: column;
@@ -133,6 +133,9 @@ body {
 
 .sec-nagano {
   background-image: url("../assets/img/nagano.jpg"); }
+
+.sec-egipto {
+  background-image: url("../assets/img/giza.jpg"); }
 
 .acerca {
   display: flex;
