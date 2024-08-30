@@ -1,0 +1,14 @@
+#vertodos-btn{
+    
+    background-color: map-get($colores , color3 );
+    border:  map-get($colores , color3 );
+      &:hover{
+          background-color: map-get($colores , color2 );}
+}
+
+#form-btn{
+background-color: map-get($colores , color3 );
+    border:  map-get($colores , color3 );
+      &:hover{
+          background-color: map-get($colores , color2 );}
+}

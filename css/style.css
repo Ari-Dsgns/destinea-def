@@ -21,8 +21,8 @@ body {
   background-position: center; }
 
 .carousel-inner img {
-  -webkit-animation: kenburns-bottom 10s ease-out both;
-  animation: kenburns-bottom 10s ease-out both; }
+  -webkit-animation: kenburns-bottom 20s ease-out both;
+  animation: kenburns-bottom 20s ease-out both; }
 
 @-webkit-keyframes kenburns-bottom {
   0% {
@@ -48,61 +48,7 @@ body {
     -webkit-transform-origin: bottom;
     transform-origin: bottom; } }
 
-#titulo {
-  -webkit-animation: tracking-in-contract-bck 6s cubic-bezier(0.215, 0.61, 0.355, 1) both;
-  animation: tracking-in-contract-bck 6s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
-
-@-webkit-keyframes tracking-in-contract-bck {
-  0% {
-    letter-spacing: 1em;
-    -webkit-transform: translateZ(400px);
-    transform: translateZ(400px);
-    opacity: 0; }
-  40% {
-    opacity: 0.6; }
-  100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1; } }
-
-@keyframes tracking-in-contract-bck {
-  0% {
-    letter-spacing: 1em;
-    -webkit-transform: translateZ(400px);
-    transform: translateZ(400px);
-    opacity: 0; }
-  40% {
-    opacity: 0.6; }
-  100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1; } }
-
-#destinos {
-  -webkit-animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
-
-@-webkit-keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0; }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1; } }
-
-@keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0; }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1; } }
-
-.sec4, .sec-nagano, .sec-egipto {
+.sec4, .sec-nagano, .sec-egipto, .sec-alaska, .sec-iguazu, .sec-himeji, .sec-bali, .sec-somalia, .sec-islandia, .sec-atenas, .sec-australia, .sec-nuevazelanda {
   display: flex;
   background-repeat: no-repeat;
   padding: 40px 40px;
@@ -112,12 +58,12 @@ body {
   background-image: url("../assets/img/himalaya.jpg");
   background-size: cover;
   background-position: center; }
-  .sec4 a, .sec-nagano a, .sec-egipto a {
+  .sec4 a, .sec-nagano a, .sec-egipto a, .sec-alaska a, .sec-iguazu a, .sec-himeji a, .sec-bali a, .sec-somalia a, .sec-islandia a, .sec-atenas a, .sec-australia a, .sec-nuevazelanda a {
     background-color: #6b0096;
     border: #6b0096; }
-    .sec4 a:hover, .sec-nagano a:hover, .sec-egipto a:hover {
+    .sec4 a:hover, .sec-nagano a:hover, .sec-egipto a:hover, .sec-alaska a:hover, .sec-iguazu a:hover, .sec-himeji a:hover, .sec-bali a:hover, .sec-somalia a:hover, .sec-islandia a:hover, .sec-atenas a:hover, .sec-australia a:hover, .sec-nuevazelanda a:hover {
       background-color: #a738d3; }
-  .sec4 .divHimalaya, .sec-nagano .divHimalaya, .sec-egipto .divHimalaya, .sec-nagano .divNagano, .sec-egipto .divegipto {
+  .sec4 .divHimalaya, .sec-nagano .divHimalaya, .sec-egipto .divHimalaya, .sec-alaska .divHimalaya, .sec-iguazu .divHimalaya, .sec-himeji .divHimalaya, .sec-bali .divHimalaya, .sec-somalia .divHimalaya, .sec-islandia .divHimalaya, .sec-atenas .divHimalaya, .sec-australia .divHimalaya, .sec-nuevazelanda .divHimalaya, .sec4 .sec-nagano .divNagano, .sec-nagano .sec4 .divNagano, .sec-nagano .divNagano, .sec-egipto .sec-nagano .divNagano, .sec-nagano .sec-egipto .divNagano, .sec-alaska .sec-nagano .divNagano, .sec-nagano .sec-alaska .divNagano, .sec-iguazu .sec-nagano .divNagano, .sec-nagano .sec-iguazu .divNagano, .sec-himeji .sec-nagano .divNagano, .sec-nagano .sec-himeji .divNagano, .sec-bali .sec-nagano .divNagano, .sec-nagano .sec-bali .divNagano, .sec-somalia .sec-nagano .divNagano, .sec-nagano .sec-somalia .divNagano, .sec-islandia .sec-nagano .divNagano, .sec-nagano .sec-islandia .divNagano, .sec-atenas .sec-nagano .divNagano, .sec-nagano .sec-atenas .divNagano, .sec-australia .sec-nagano .divNagano, .sec-nagano .sec-australia .divNagano, .sec-nuevazelanda .sec-nagano .divNagano, .sec-nagano .sec-nuevazelanda .divNagano, .sec4 .sec-egipto .divegipto, .sec-egipto .sec4 .divegipto, .sec-nagano .sec-egipto .divegipto, .sec-egipto .sec-nagano .divegipto, .sec-egipto .divegipto, .sec-alaska .sec-egipto .divegipto, .sec-egipto .sec-alaska .divegipto, .sec-iguazu .sec-egipto .divegipto, .sec-egipto .sec-iguazu .divegipto, .sec-himeji .sec-egipto .divegipto, .sec-egipto .sec-himeji .divegipto, .sec-bali .sec-egipto .divegipto, .sec-egipto .sec-bali .divegipto, .sec-somalia .sec-egipto .divegipto, .sec-egipto .sec-somalia .divegipto, .sec-islandia .sec-egipto .divegipto, .sec-egipto .sec-islandia .divegipto, .sec-atenas .sec-egipto .divegipto, .sec-egipto .sec-atenas .divegipto, .sec-australia .sec-egipto .divegipto, .sec-egipto .sec-australia .divegipto, .sec-nuevazelanda .sec-egipto .divegipto, .sec-egipto .sec-nuevazelanda .divegipto, .sec4 .sec-alaska .divAlaska, .sec-alaska .sec4 .divAlaska, .sec-nagano .sec-alaska .divAlaska, .sec-alaska .sec-nagano .divAlaska, .sec-egipto .sec-alaska .divAlaska, .sec-alaska .sec-egipto .divAlaska, .sec-alaska .divAlaska, .sec-iguazu .sec-alaska .divAlaska, .sec-alaska .sec-iguazu .divAlaska, .sec-himeji .sec-alaska .divAlaska, .sec-alaska .sec-himeji .divAlaska, .sec-bali .sec-alaska .divAlaska, .sec-alaska .sec-bali .divAlaska, .sec-somalia .sec-alaska .divAlaska, .sec-alaska .sec-somalia .divAlaska, .sec-islandia .sec-alaska .divAlaska, .sec-alaska .sec-islandia .divAlaska, .sec-atenas .sec-alaska .divAlaska, .sec-alaska .sec-atenas .divAlaska, .sec-australia .sec-alaska .divAlaska, .sec-alaska .sec-australia .divAlaska, .sec-nuevazelanda .sec-alaska .divAlaska, .sec-alaska .sec-nuevazelanda .divAlaska, .sec4 .sec-iguazu .divIguazu, .sec-iguazu .sec4 .divIguazu, .sec-nagano .sec-iguazu .divIguazu, .sec-iguazu .sec-nagano .divIguazu, .sec-egipto .sec-iguazu .divIguazu, .sec-iguazu .sec-egipto .divIguazu, .sec-alaska .sec-iguazu .divIguazu, .sec-iguazu .sec-alaska .divIguazu, .sec-iguazu .divIguazu, .sec-himeji .sec-iguazu .divIguazu, .sec-iguazu .sec-himeji .divIguazu, .sec-bali .sec-iguazu .divIguazu, .sec-iguazu .sec-bali .divIguazu, .sec-somalia .sec-iguazu .divIguazu, .sec-iguazu .sec-somalia .divIguazu, .sec-islandia .sec-iguazu .divIguazu, .sec-iguazu .sec-islandia .divIguazu, .sec-atenas .sec-iguazu .divIguazu, .sec-iguazu .sec-atenas .divIguazu, .sec-australia .sec-iguazu .divIguazu, .sec-iguazu .sec-australia .divIguazu, .sec-nuevazelanda .sec-iguazu .divIguazu, .sec-iguazu .sec-nuevazelanda .divIguazu, .sec4 .sec-himeji .divHimeji, .sec-himeji .sec4 .divHimeji, .sec-nagano .sec-himeji .divHimeji, .sec-himeji .sec-nagano .divHimeji, .sec-egipto .sec-himeji .divHimeji, .sec-himeji .sec-egipto .divHimeji, .sec-alaska .sec-himeji .divHimeji, .sec-himeji .sec-alaska .divHimeji, .sec-iguazu .sec-himeji .divHimeji, .sec-himeji .sec-iguazu .divHimeji, .sec-himeji .divHimeji, .sec-bali .sec-himeji .divHimeji, .sec-himeji .sec-bali .divHimeji, .sec-somalia .sec-himeji .divHimeji, .sec-himeji .sec-somalia .divHimeji, .sec-islandia .sec-himeji .divHimeji, .sec-himeji .sec-islandia .divHimeji, .sec-atenas .sec-himeji .divHimeji, .sec-himeji .sec-atenas .divHimeji, .sec-australia .sec-himeji .divHimeji, .sec-himeji .sec-australia .divHimeji, .sec-nuevazelanda .sec-himeji .divHimeji, .sec-himeji .sec-nuevazelanda .divHimeji, .sec4 .sec-bali .divBali, .sec-bali .sec4 .divBali, .sec-nagano .sec-bali .divBali, .sec-bali .sec-nagano .divBali, .sec-egipto .sec-bali .divBali, .sec-bali .sec-egipto .divBali, .sec-alaska .sec-bali .divBali, .sec-bali .sec-alaska .divBali, .sec-iguazu .sec-bali .divBali, .sec-bali .sec-iguazu .divBali, .sec-himeji .sec-bali .divBali, .sec-bali .sec-himeji .divBali, .sec-bali .divBali, .sec-somalia .sec-bali .divBali, .sec-bali .sec-somalia .divBali, .sec-islandia .sec-bali .divBali, .sec-bali .sec-islandia .divBali, .sec-atenas .sec-bali .divBali, .sec-bali .sec-atenas .divBali, .sec-australia .sec-bali .divBali, .sec-bali .sec-australia .divBali, .sec-nuevazelanda .sec-bali .divBali, .sec-bali .sec-nuevazelanda .divBali, .sec4 .sec-somalia .divSomalia, .sec-somalia .sec4 .divSomalia, .sec-nagano .sec-somalia .divSomalia, .sec-somalia .sec-nagano .divSomalia, .sec-egipto .sec-somalia .divSomalia, .sec-somalia .sec-egipto .divSomalia, .sec-alaska .sec-somalia .divSomalia, .sec-somalia .sec-alaska .divSomalia, .sec-iguazu .sec-somalia .divSomalia, .sec-somalia .sec-iguazu .divSomalia, .sec-himeji .sec-somalia .divSomalia, .sec-somalia .sec-himeji .divSomalia, .sec-bali .sec-somalia .divSomalia, .sec-somalia .sec-bali .divSomalia, .sec-somalia .divSomalia, .sec-islandia .sec-somalia .divSomalia, .sec-somalia .sec-islandia .divSomalia, .sec-atenas .sec-somalia .divSomalia, .sec-somalia .sec-atenas .divSomalia, .sec-australia .sec-somalia .divSomalia, .sec-somalia .sec-australia .divSomalia, .sec-nuevazelanda .sec-somalia .divSomalia, .sec-somalia .sec-nuevazelanda .divSomalia, .sec4 .sec-islandia .divIslandia, .sec-islandia .sec4 .divIslandia, .sec-nagano .sec-islandia .divIslandia, .sec-islandia .sec-nagano .divIslandia, .sec-egipto .sec-islandia .divIslandia, .sec-islandia .sec-egipto .divIslandia, .sec-alaska .sec-islandia .divIslandia, .sec-islandia .sec-alaska .divIslandia, .sec-iguazu .sec-islandia .divIslandia, .sec-islandia .sec-iguazu .divIslandia, .sec-himeji .sec-islandia .divIslandia, .sec-islandia .sec-himeji .divIslandia, .sec-bali .sec-islandia .divIslandia, .sec-islandia .sec-bali .divIslandia, .sec-somalia .sec-islandia .divIslandia, .sec-islandia .sec-somalia .divIslandia, .sec-islandia .divIslandia, .sec-atenas .sec-islandia .divIslandia, .sec-islandia .sec-atenas .divIslandia, .sec-australia .sec-islandia .divIslandia, .sec-islandia .sec-australia .divIslandia, .sec-nuevazelanda .sec-islandia .divIslandia, .sec-islandia .sec-nuevazelanda .divIslandia, .sec4 .sec-atenas .divAtenas, .sec-atenas .sec4 .divAtenas, .sec-nagano .sec-atenas .divAtenas, .sec-atenas .sec-nagano .divAtenas, .sec-egipto .sec-atenas .divAtenas, .sec-atenas .sec-egipto .divAtenas, .sec-alaska .sec-atenas .divAtenas, .sec-atenas .sec-alaska .divAtenas, .sec-iguazu .sec-atenas .divAtenas, .sec-atenas .sec-iguazu .divAtenas, .sec-himeji .sec-atenas .divAtenas, .sec-atenas .sec-himeji .divAtenas, .sec-bali .sec-atenas .divAtenas, .sec-atenas .sec-bali .divAtenas, .sec-somalia .sec-atenas .divAtenas, .sec-atenas .sec-somalia .divAtenas, .sec-islandia .sec-atenas .divAtenas, .sec-atenas .sec-islandia .divAtenas, .sec-atenas .divAtenas, .sec-australia .sec-atenas .divAtenas, .sec-atenas .sec-australia .divAtenas, .sec-nuevazelanda .sec-atenas .divAtenas, .sec-atenas .sec-nuevazelanda .divAtenas, .sec4 .sec-australia .divAustralia, .sec-australia .sec4 .divAustralia, .sec-nagano .sec-australia .divAustralia, .sec-australia .sec-nagano .divAustralia, .sec-egipto .sec-australia .divAustralia, .sec-australia .sec-egipto .divAustralia, .sec-alaska .sec-australia .divAustralia, .sec-australia .sec-alaska .divAustralia, .sec-iguazu .sec-australia .divAustralia, .sec-australia .sec-iguazu .divAustralia, .sec-himeji .sec-australia .divAustralia, .sec-australia .sec-himeji .divAustralia, .sec-bali .sec-australia .divAustralia, .sec-australia .sec-bali .divAustralia, .sec-somalia .sec-australia .divAustralia, .sec-australia .sec-somalia .divAustralia, .sec-islandia .sec-australia .divAustralia, .sec-australia .sec-islandia .divAustralia, .sec-atenas .sec-australia .divAustralia, .sec-australia .sec-atenas .divAustralia, .sec-australia .divAustralia, .sec-nuevazelanda .sec-australia .divAustralia, .sec-australia .sec-nuevazelanda .divAustralia, .sec4 .sec-nuevazelanda .divNuevazelanda, .sec-nuevazelanda .sec4 .divNuevazelanda, .sec-nagano .sec-nuevazelanda .divNuevazelanda, .sec-nuevazelanda .sec-nagano .divNuevazelanda, .sec-egipto .sec-nuevazelanda .divNuevazelanda, .sec-nuevazelanda .sec-egipto .divNuevazelanda, .sec-alaska .sec-nuevazelanda .divNuevazelanda, .sec-nuevazelanda .sec-alaska .divNuevazelanda, .sec-iguazu .sec-nuevazelanda .divNuevazelanda, .sec-nuevazelanda .sec-iguazu .divNuevazelanda, .sec-himeji .sec-nuevazelanda .divNuevazelanda, .sec-nuevazelanda .sec-himeji .divNuevazelanda, .sec-bali .sec-nuevazelanda .divNuevazelanda, .sec-nuevazelanda .sec-bali .divNuevazelanda, .sec-somalia .sec-nuevazelanda .divNuevazelanda, .sec-nuevazelanda .sec-somalia .divNuevazelanda, .sec-islandia .sec-nuevazelanda .divNuevazelanda, .sec-nuevazelanda .sec-islandia .divNuevazelanda, .sec-atenas .sec-nuevazelanda .divNuevazelanda, .sec-nuevazelanda .sec-atenas .divNuevazelanda, .sec-australia .sec-nuevazelanda .divNuevazelanda, .sec-nuevazelanda .sec-australia .divNuevazelanda, .sec-nuevazelanda .divNuevazelanda {
     display: flex;
     height: 300px;
     flex-direction: column;
@@ -137,23 +83,41 @@ body {
 .sec-egipto {
   background-image: url("../assets/img/giza.jpg"); }
 
-.acerca {
-  display: flex;
-  width: 100%;
-  height: 200px; }
+.sec-alaska {
+  background-image: url("../assets/img/alaska.jpg"); }
 
-#intro {
-  background-image: url(""); }
+.sec-iguazu {
+  background-image: url("../assets/img/iguazu (3).jpg"); }
+
+.sec-himeji {
+  background-image: url("../assets/img/tokio.jpg"); }
+
+.sec-bali {
+  background-image: url("../assets/img/ankor.jpg"); }
+
+.sec-somalia {
+  background-image: url("../assets/img/somalia.jpg"); }
+
+.sec-islandia {
+  background-image: url("../assets/img/islandia (2).jpg"); }
+
+.sec-atenas {
+  background-image: url("../assets/img/partenon.jpg"); }
+
+.sec-australia {
+  background-image: url("../assets/img/sidney.jpg"); }
+
+.sec-nuevazelanda {
+  background-image: url("../assets/img/new-zeland.jpg"); }
 
 .grid-container-footer2 {
   display: grid;
   height: 200px;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 6;
+  grid-template-columns: 12;
   background-color: #101820;
   color: whitesmoke;
-  /* padding: 60px; */
-  padding-top: 40px; }
+  padding-top: 10px; }
   .grid-container-footer2 a {
     color: whitesmoke;
     font-size: 12px; }
@@ -164,39 +128,34 @@ body {
     align-self: top; }
   .grid-container-footer2 .caja2 {
     grid-row: 1 / 2;
-    grid-column: 4 / 10;
+    grid-column: 4 / 9;
     text-align: center;
     align-self: top; }
   .grid-container-footer2 .caja2 p {
-    font-weight: 200px; }
+    font-weight: 200; }
   .grid-container-footer2 .caja3 {
     grid-row: 1 / 3;
-    grid-column: 11 / 13;
-    text-align: left;
-    align-self: left; }
+    grid-column: 10 / 12;
+    text-align: center;
+    align-self: top; }
   .grid-container-footer2 .caja4 {
     grid-row: 3 / 5;
-    grid-column: 3 / 5;
+    grid-column: 7 / 8;
     text-align: center;
     align-self: top; }
   .grid-container-footer2 .caja5 {
     grid-row: 3 / 5;
-    grid-column: 5 / 7;
+    grid-column: 5 / 6;
     text-align: center;
     align-self: top; }
   .grid-container-footer2 .caja6 {
     grid-row: 3 / 5;
-    grid-column: 7/ 9;
-    text-align: center;
-    align-self: top; }
-  .grid-container-footer2 .caja7 {
-    grid-row: 3 / 5;
-    grid-column: 9 / 11;
+    grid-column: 6 / 7;
     text-align: center;
     align-self: top; }
 
 #cards {
-  opacity: 85%; }
+  opacity: 80%; }
   #cards a {
     background-color: #6b0096;
     border: #6b0096; }
@@ -204,12 +163,11 @@ body {
       background-color: #a738d3; }
 
 #cards:hover {
-  box-shadow: 1px 1px 60px  #5d5c5c7a;
+  box-shadow: 1px 1px 120px  #92929250;
   opacity: 100%; }
 
 #minicards {
-  border-radius: 8px;
-  background-color: #7a797911; }
+  border-radius: 8px; }
   #minicards a {
     background-color: #6b0096;
     border: #6b0096; }
@@ -218,7 +176,7 @@ body {
 
 #minicards:hover {
   border-radius: 8px;
-  background-color: #7a797933; }
+  background-color: #aca9a933; }
 
 #vertodos-btn {
   background-color: #6b0096;
@@ -238,84 +196,70 @@ body {
     width: 90% !important; }
   #forms {
     width: 90% !important; }
-  .grid-container-footer2 .caja1 {
-    width: 2fr;
-    height: 40px; }
-  .grid-container-footer2 .caja1 img {
-    width: 2fr;
-    height: 40px; }
-  .grid-container-footer2 .caja2 {
-    width: 2fr;
-    height: 100px; }
-  .grid-container-footer2 .caja2 p {
-    font-size: 16px; }
-  .grid-container-footer2 .caja3 img {
-    width: 2fr;
-    height: 50px; }
-  .grid-container-footer2 .caja4 img {
-    width: 6fr;
-    height: 40px; } }
+  #h3-intro {
+    width: 90% !important; } }
 
 /* ====================== media Q 576============================ */
 @media (max-width: 576px) {
   .grid-container-footer2 .caja1 {
-    width: 2fr;
-    height: 40px;
     grid-row: 3 / 5;
     grid-column: 1 / 3;
     text-align: center;
     align-self: top; }
-    .grid-container-footer2 .caja1 .img {
-      width: 1fr; }
   .grid-container-footer2 .caja2 {
-    width: 2fr;
-    height: 50px;
     grid-row: 1 / 3;
-    grid-column: 3 / 11;
+    grid-column: 1 / 12;
     text-align: center;
     align-self: top; }
   .grid-container-footer2 .caja2 p {
     font-size: 14px; }
   .grid-container-footer2 .caja3 {
-    width: 1fr;
-    height: 50px;
-    grid-column: 10 / 12;
-    grid-row: 3 / 5; }
+    grid-row: 3 / 5;
+    grid-column: 10 / 12; }
   .grid-container-footer2 .caja4 {
     grid-row: 2 / 3;
-    grid-column: 5 / 9;
-    text-align: top;
-    align-self: top; }
+    grid-column: 4 / 9;
+    text-align: bottom;
+    align-self: bottom; }
   .grid-container-footer2 .caja5 {
     grid-row: 3 / 4;
-    grid-column: 5 / 9;
-    text-align: top;
-    align-self: top; }
+    grid-column: 4 / 9;
+    text-align: bottom;
+    align-self: bottom; }
   .grid-container-footer2 .caja6 {
     grid-row: 4 / 5;
-    grid-column: 5/ 9;
+    grid-column: 4 / 9;
+    text-align: bottom;
+    align-self: bottom; } }
+
+@media (max-width: 420px) {
+  .grid-container-footer2 .caja1 {
+    grid-row: 2 / 4;
+    grid-column: 1 / 3;
     text-align: center;
     align-self: top; }
-  .grid-container-footer2 .caja7 {
-    grid-row: 5 / 6;
-    grid-column: 5 / 9;
-    text-align: center;
-    align-self: top; } }
-
-/* ====================== media Q 380============================ */
-@media (max-width: 380px) {
-  .grid-container-footer2 .caja1 {
-    width: 1fr;
-    height: 30px; }
   .grid-container-footer2 .caja2 {
-    width: 2fr;
-    height: 30px; }
+    grid-row: 1 / 3;
+    grid-column: 1 / 12;
+    text-align: center;
+    align-self: top; }
   .grid-container-footer2 .caja2 p {
-    font-size: 12px; }
+    font-size: 14px; }
   .grid-container-footer2 .caja3 {
-    width: 1fr;
-    height: 30px; }
-  .grid-container-footer2 .caja4 img {
-    width: 4fr;
-    height: 25px;
-    width: 200px; } }
+    grid-row: 2 / 4;
+    grid-column: 10 / 12; }
+  .grid-container-footer2 .caja4 {
+    grid-row: 4 / 5;
+    grid-column: 1 / 3;
+    text-align: bottom;
+    align-self: bottom; }
+  .grid-container-footer2 .caja5 {
+    grid-row: 4 / 5;
+    grid-column: 4 / 9;
+    text-align: bottom;
+    align-self: bottom; }
+  .grid-container-footer2 .caja6 {
+    grid-row: 4 / 5;
+    grid-column: 9 / 12;
+    text-align: bottom;
+    align-self: bottom; } }

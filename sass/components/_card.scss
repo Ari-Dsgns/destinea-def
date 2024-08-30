@@ -1,18 +1,8 @@
-// valores de las cards
+// =============valores de las cards==================//
 
-// // #cards:hover{
-// //     // transform: scale(1.1);
-// //     // transition: all 1000ms cubic-bezier(.17,.67,.92,.24);
-// //     // border: solid 1px rgb(106, 125, 233);
-// //     // background-color: rgba(197, 196, 196, 0.185);
-
-// //     a:hover {
-// //         width: 100%;
-// //         text-align:left;
-//     }
 
 #cards{
-    opacity: 85%;
+    opacity: 80%;
     a{
         background-color: map-get($colores , color3 );
         border:  map-get($colores , color3 );
@@ -26,9 +16,9 @@
 
 
 #cards:hover{
-    //  border: solid 1px #ffffff52;
+    // border: solid 1px #eb17a4dc;
     // border-radius: 8px;
-    box-shadow:1px 1px 60px  #5d5c5c7a;
+      box-shadow:1px 1px 120px  #92929250;
     // background-color: #92929234;
     // opacity: 80%;
     opacity: 100%;
@@ -38,7 +28,8 @@
 
 #minicards{
     border-radius: 8px;
-    background-color: #7a797911;
+    // background-color: #d9d7d740;
+    
     a{
         background-color: map-get($colores , color3 );
         border:  map-get($colores , color3 );
@@ -49,10 +40,13 @@
       }
 }
 #minicards:hover{
-    // border: solid 2px #3e3e3ed6;
    border-radius: 8px;
-   background-color: #7a797933;
+   background-color: #aca9a933;
+   
+
 }
+
+
 
 #vertodos-btn{
     

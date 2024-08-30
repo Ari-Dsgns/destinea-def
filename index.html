@@ -7,7 +7,7 @@
 
     <meta property="og:title" content=Destinea agencia de viajes pensada para ti>
     <meta property="og:site_name" content=destinea>
-    <meta property="og:url" content=www.destinea.com>
+    <meta property="og:url" content=https://destinea.vercel.app/>
     <meta property="og:description" content=agencia de viajes especializada en viajes exoticos por todo el mundo>
     <meta property="og:type" content=website>
     <meta property="og:image" content=https://ari-dsgns.github.io/destinea-def/assets/img/kioto.jpg>
@@ -28,12 +28,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
 
 
 <!-- =====================================encabezado======================================  -->
-<!-- etiqeta strong para destacar palabras
-      etiqueta em para enfatizar palabras -->
+
+
+<body>
+
 <header class="header" id="header">
   <nav class="navbar navbar-expand-xl fixed-top bg-body-tertiary p-4 pb-2" id="menu">
     <div class="container-fluid">
@@ -60,9 +61,10 @@
                 </a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="./pages/america.html">América</a></li>
-                    <li><a class="dropdown-item" href="./pages/asia-oceania.html">Asia y Oceanía</a></li>
+                    <li><a class="dropdown-item" href="./pages/asia.html">Asia</a></li>
                     <li><a class="dropdown-item" href="./pages/europa.html">Europa</a></li>
                     <li><a class="dropdown-item" href="./pages/africa.html">África</a></li>
+                    <li><a class="dropdown-item" href="./pages/oceania.html">Oceanía</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="./pages/destinos.html">Todos los destinos</a></li>
                 </ul>
@@ -87,6 +89,7 @@
 
 <!-- =====================================slider de imagenes=====================================  -->
 
+
 <div id="carouselExample" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="3000">
@@ -109,45 +112,42 @@
     </button>
   </div>
 
-<!-- ===================================== mini cards-config=====================================-->
+
+<!-- ===================================== mini cards-config =====================================-->
 
 
-
-<section class="container-fluid d-flex justify-content-center pt-1 pb-5 bg-body-tertiary">
-
-  <div class="container text-center gap-4 m-4 pb-2">
-    <h1 class="pb-4 fs-1 fw-bold " id="titulo">DESTINEA</h1>
-    <div class="row gap-4 m-4 pt-5">
-      <div class="col-md p-4" id="minicards">
+<section class="container-fluid d-flex justify-content-center pt-1 pb-5 bg-body-secundary w-100 mx-auto" id="h3-intro">
+  <div class="container text-center gap-4 m-4 pb-2 ">
+    <h1 class="pb-4 fs-1 fw-bold text-center" >DESTINEA</h1>
+    <h3 class="pb-4 fs-2 text-center w-100 mx-auto" id="h3-intro" >Donde tu imaginación te lleve, vamos contigo.</h3>
+    <div class="row gap-4 m-4 pt-4">
+      <div class="col-md p-4 " id="minicards">
         <h4>Viaja a tu medida</h4>
         <p>Te ayudamos a configurar
           el viaje de tu vida</p>
-          <a href="#" class="btn btn-success" >Configurar</a>
+          <a href="./pages/contacto.html" class="btn btn-success" >Configurar</a>
       </div>
       <div class="col-md p-4" id="minicards">
         <h4>Solo para intrépidos</h4>
         <p>Viajes diseñados para vivir emociones fuertes</p>
-          <a href="#" class="btn btn-success">Ver viajes</a>
+          <a href="./pages/destinos.html" class="btn btn-success">Ver viajes</a>
       </div>
       <div class="col-md p-4" id="minicards">
         <h4>Los más populares</h4>
-        <p>Los destinos mas visitados por popularidad</p>
-          <a href="#" class="btn btn-success">Elegir destino</a>
+        <p>Los destinos más visitados por popularidad</p>
+          <a href="./pages/destinos.html" class="btn btn-success">Elegir destino</a>
       </div>
     </div>
 </div>
-
 </section> 
 
+<!-- =====================================main=====================================  -->
 
+<section>
+  <h2 class="pt-5 fs-2 text-center " id="destinos">Destinos top del mes</h2>
+</section>
 
-<!-- =====================================cards=====================================  -->
-
-
-
-
-<section class="p-4 bg-body-secundary">
-  <h3 class="p-5 fs-2 text-center w-90 mx-auto">Donde tu imaginación te lleve, vamos contigo. </h3>
+<section class="p-5 bg-body-secundary">
   <div class="container">
     <div class="row gap-2">
       <div class="col-md ">
@@ -173,7 +173,7 @@
       </div>
       <div class="col-md">
         <div class="card border-0" id="cards">
-          <img src="./assets/img/indonesia.jpg" class="card-img-top" alt="templo indonesia">
+          <img src="./assets/img/ankor (2).jpg" class="card-img-top" alt="templo indonesia">
           <div class="card-body">
             <h5 class="card-title">INDONESIA</h5>
             <p class="card-text">Navega entre sus islas volcánicas, descubre la fauna y la flora más salvaje del continente asiático</p>
@@ -184,8 +184,9 @@
     </div>
   </div>
   <div class="container-fluid d-flex justify-content-center p-5">
-    <a href="./pages/destinos.html" class="btn btn-success " id="vertodos-btn">Ver todos</a>
+    <a href="./pages/destinos.html" class="btn btn-success " id="vertodos-btn">Todos los destinos</a>
 </section>
+
 
 <!-- ============================ seccion4-himalaya ============================== -->
 
@@ -203,7 +204,6 @@
 <!-- =================================== footer ======================================= -->
 
 
-
 <footer>
   <section class="grid-container-footer2">
     <div class="caja1">  
@@ -211,14 +211,14 @@
     </div>
     <div class="caja2">
     <p>
-    C/Marqués de vadillo 43
+    C/Marqués de Vadillo 43
     28033 Madrid
     +34 914203040
     info@destinea.com
     </p>
     </div>
     <div class="caja3">
-      <img src="./assets/img/Frame 10123095.png" alt="logo redes sociales">
+      <img src="./assets/img/logoredes.png" alt="logo redes sociales">
     </div>
     <div class="caja4 ">
       <a href="">Política de cookies</a>
@@ -229,15 +229,8 @@
     <div class="caja6 ">
       <a href="">Asistencia en viaje</a>
     </div>
-    <div class="caja7 " >
-      <a href="">Politica de privacidad</a>
-    </div>
   </section>
 </footer>
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

@@ -1,14 +1,16 @@
+
+// ==================== animaciones =============================== //
+
 .carousel-inner {
 
         max-height: 39rem;
         padding-top: 80px;
         background-position: center;
-       
 }
 
 .carousel-inner img{
-  -webkit-animation: kenburns-bottom 10s ease-out both;
-          animation: kenburns-bottom 10s ease-out both;
+  -webkit-animation: kenburns-bottom 20s ease-out both;
+          animation: kenburns-bottom 20s ease-out both;
 }
 
 @-webkit-keyframes kenburns-bottom {
@@ -41,81 +43,12 @@
 }
 
 
-#titulo{
-                -webkit-animation: tracking-in-contract-bck 6s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-                        animation: tracking-in-contract-bck 6s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-        }
- @-webkit-keyframes tracking-in-contract-bck {
-        0% {
-          letter-spacing: 1em;
-          -webkit-transform: translateZ(400px);
-                  transform: translateZ(400px);
-          opacity: 0;
-        }
-        40% {
-          opacity: 0.6;
-        }
-        100% {
-          -webkit-transform: translateZ(0);
-                  transform: translateZ(0);
-          opacity: 1;
-        }
-      }
-      @keyframes tracking-in-contract-bck {
-        0% {
-          letter-spacing: 1em;
-          -webkit-transform: translateZ(400px);
-                  transform: translateZ(400px);
-          opacity: 0;
-        }
-        40% {
-          opacity: 0.6;
-        }
-        100% {
-          -webkit-transform: translateZ(0);
-                  transform: translateZ(0);
-          opacity: 1;
-        }
-      }
-
-#destinos{
-  
-    -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-            animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-  
-        }
-
-
-@-webkit-keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-            filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    opacity: 1;
-  }
-}
-@keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-            filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    opacity: 1;
-  }
-}
-
+// ==================== extends =============================== //
 
 .sec4{
     display: flex;
     background-repeat: no-repeat;
-    padding: 40px 40px;
+    padding: 40px 40px  ;
     align-items: center;
     width: 100%;
     height: 600px;
@@ -149,7 +82,6 @@
 
 
 
-
 .sec-nagano{
 
   @extend .sec4;
@@ -174,17 +106,102 @@
 }
 
 
+.sec-alaska{
+  @extend .sec4;
+  background-image: url("../assets/img/alaska.jpg");
 
+  .divAlaska{
 
-
-
-
-
-.acerca{
-  display: flex;
-  width: 100%;
-  height: 200px;
+      @extend .divHimalaya;
+  }
 }
+
+.sec-iguazu{
+  
+  @extend .sec4;
+  background-image: url("../assets/img/iguazu\ \(3\).jpg");
+
+  .divIguazu{
+
+      @extend .divHimalaya;
+  }
+}
+
+.sec-himeji{
+  @extend .sec4;
+  background-image: url("../assets/img/tokio.jpg");
+
+  .divHimeji{
+
+      @extend .divHimalaya;
+  }
+}
+
+.sec-bali{
+  @extend .sec4;
+  background-image: url("../assets/img/ankor.jpg");
+
+  .divBali{
+
+      @extend .divHimalaya;
+  }
+}
+
+.sec-somalia{
+  @extend .sec4;
+  background-image: url("../assets/img/somalia.jpg");
+
+  .divSomalia{
+
+      @extend .divHimalaya;
+      
+
+}
+}
+
+.sec-islandia{
+  @extend .sec4;
+  background-image: url("../assets/img/islandia\ \(2\).jpg");
+
+  .divIslandia{
+
+      @extend .divHimalaya;
+}
+}
+
+.sec-atenas{
+  @extend .sec4;
+  background-image: url("../assets/img/partenon.jpg");
+
+  .divAtenas{
+
+      @extend .divHimalaya;
+}
+}
+
+.sec-australia{
+
+  @extend .sec4;
+  background-image: url("../assets/img/sidney.jpg");
+
+  .divAustralia{
+
+      @extend .divHimalaya;
+}
+}
+
+.sec-nuevazelanda{
+
+  @extend .sec4;
+  background-image: url("../assets/img/new-zeland.jpg");
+
+  .divNuevazelanda{
+
+      @extend .divHimalaya;
+}
+}
+// ==================== extends =============================== //
+
 
 //== propiedad extend para copiar las propiedades de otras clases:
 
@@ -195,7 +212,3 @@
 // esto sirve para ahorrar lineas de codigo
 
 
-#intro{
-  background-image: url("") ;
-  
-}
